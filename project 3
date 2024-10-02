@@ -1,0 +1,171 @@
+import java.util.*;
+public class quiz1{
+    public static void main(String args[]){
+        int marks=0;
+
+        System.out.println("_____________Hello welcome to Science Quiz______________");
+        System.out.println("This QUIZ contain 10 Questions \n");
+        System.out.println("Each question is of 10 marks :");
+        System.out.println("Do you want to play the game Tell yes or No");
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        if (str.equals("yes")){
+            System.out.println("Now GAME Begins");
+            System.out.println("Your first Question is :");
+            System.out.println("1. What is the capital of russia");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str1 = sc.nextLine();
+            if(str1.equals("c") ){
+                System.out.println("Your answer is correct answer");
+                 marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("2. What is the capital of India");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str2 = sc.nextLine();
+            if(str2.equals("d")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("3. What is the capital of China");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str3 = sc.nextLine();
+            if(str3.equals("b")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("4. What is the capital of America");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str4 = sc.nextLine();
+            if(str4.equals("a")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("5. What is the capital of Singapore");
+        
+            System.out.println("a.  singapore city");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str5 = sc.nextLine();
+            if(str5.equals("a")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("6. What is the capital of madhya pradesh");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  beijing");
+            System.out.println("c.  bhopal");
+            System.out.println("d.  delhi");
+            String str6 = sc.nextLine();
+            if(str6.equals("c")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("7. What is the capital of UP");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  lucknow");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str7 = sc.nextLine();
+            if(str7.equals("b")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("8. What is the capital of karnataka");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  bangalore");
+            String str8 = sc.nextLine();
+            if(str8.equals("d")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("9. What is the capital of chhatisgarh");
+        
+            System.out.println("a.  Raipur");
+            System.out.println("b.  beijing");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str9 = sc.nextLine();
+            if(str9.equals("a")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+            System.out.println("10. What is the first capital of india before independence");
+        
+            System.out.println("a.  newyork");
+            System.out.println("b.  kolkata");
+            System.out.println("c.  moscow");
+            System.out.println("d.  delhi");
+            String str10 = sc.nextLine();
+            if(str10.equals("b")){
+                System.out.println("Your answer is correct answer");
+                marks= marks +1;
+            }
+            else{
+                System.out.println("Your answer is wrong answer");
+            }
+
+       
+        }
+        else{
+            System.out.println("game is going off");
+     
+        }
+        System.out.println(" ");
+        System.out.println("Total marks you get = "+ marks);
+      
+        
+
+        
+      
+        
+    }
+}
