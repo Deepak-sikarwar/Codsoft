@@ -1,35 +1,4 @@
 # Codsoft
 Project's of my internship 
-import java.util.*;
-public class p {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number of subjects : ");
-        int n = sc.nextInt(); 
-        int[] integers = new int[n];
-        int p = 0;
-        for(int i = 0; i < n; i++){
-        System.out.println("Marks in "+ i*1 + " subject :");
-        integers[i] = sc.nextInt();
-        p = p + integers[i];
-        }        
-        int Total_Marks = p;
-        System.out.println("Total Marks are : " + Total_Marks);
-        double Percentage = (Total_Marks*100)/(n*100);
-        System.out.println("Total Percentage is : " + Percentage+"%");
-        if(Percentage >= 80){
-            System.out.println("A grade Congratulation ");
-        }                                                                                                                                            
-        else if( Percentage>=60 ){
-            System.out.println("B grade Congratulation ");
-        }
-        else if( Percentage>=40){
-            System.out.println("C grade Congratulation ");
-        }
-        else {
-            System.out.println(" Fail Try again ");
-        }
-     
-    }
-}
+                                                                                                                 
 
